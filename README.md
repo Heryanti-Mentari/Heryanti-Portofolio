@@ -35,7 +35,7 @@ Perancangan sistem informasi pelaporan warga berbasis web untuk mendukung transp
 ---
 
 ### 🌍 Portofolio Website
-👉 [Lihat Portofolio](https://heryanti-mentari.github.io/portofolio)
+👉 [Lihat Portofolio](https://heryanti-mentari.github.io/Heryanti-Portofolio)
 
 ---
 
@@ -82,7 +82,7 @@ A web-based citizen reporting system designed to enhance transparency, public pa
 ---
 
 ### 🌍 Portfolio Website
-👉 [View Portfolio](https://heryanti-mentari.github.io/portofolio)
+👉 [View Portfolio](https://heryanti-mentari.github.io/Heryanti-Portofolio)
 
 ---
 
