@@ -42,7 +42,7 @@ Perancangan sistem informasi pelaporan warga berbasis web untuk mendukung transp
 ### 📫 Kontak
 - **Email:** eriyantijtb@gmail.com  
 - **GitHub:** https://github.com/Heryanti-Mentari  
-- **LinkedIn:** https://linkedin.com/in/Heryanti Rima Mentari 
+- **LinkedIn:** https://linkedin.com/in/Heryanti-rima-mentari 
 
 ---
 
@@ -89,4 +89,4 @@ A web-based citizen reporting system designed to enhance transparency, public pa
 ### 📫 Contact
 - **Email:** eriyantijtb@gmail.com  
 - **GitHub:** https://github.com/Heryanti-Mentari  
-- **LinkedIn:** https://linkedin.com/in/Heryanti Rima Mentari
+- **LinkedIn:** https://linkedin.com/in/Heryanti-rima-mentari
