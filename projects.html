@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyek | Portofolio</title>
 
+    <meta name="description" content="Daftar proyek akademik dan mandiri Heryanti Rima Mentari dalam pengembangan web, mobile, analisis data, dan IoT." />
+
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="navbar">
       <div class="logo">Portofolio</div>
 
-      <ul>
+      <ul class="nav-menu">
         <li><a href="index.html">Beranda</a></li>
         <li><a href="about.html">Tentang</a></li>
         <li><a href="skills.html">Keahlian</a></li>
@@ -20,124 +22,103 @@
         <li><a href="contact.html">Kontak</a></li>
       </ul>
 
-      <div class="toggle-theme">🌙</div>
+      <button class="toggle-theme" aria-label="Ganti Tema">🌙</button>
     </nav>
 
     <!-- PROJECTS -->
-    <section class="container">
-      <h2 class="reveal">Proyek Akademik & Mandiri</h2>
+    <main>
+      <section class="container projects">
+        <h2 class="reveal">Proyek Akademik & Mandiri</h2>
 
-      <div class="grid">
-        <!-- PROJECT 1 -->
-        <div class="card reveal">
-          <h3>Analisis Sentimen Media Sosial (Akademik)</h3>
-          <p>
-            Proyek akademik untuk mengolah dan menganalisis data teks media sosial
-            menggunakan teknik dasar Natural Language Processing (NLP).
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> Python, NLP (Dasar)
-          </p>
-          <div class="project-links">
-            <a
-              href="https://heryanti-mentari.github.io/Sentimen-Dashboard/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
+        <div class="grid">
+          <!-- PROJECT 1 -->
+          <div class="card reveal">
+            <h3>LifeJurnal – Aplikasi Mobile Flutter</h3>
+            <p>Aplikasi mobile untuk pencatatan jurnal dan manajemen to-do harian dengan navigasi multi-halaman. Memanfaatkan Firebase Firestore dan penyimpanan lokal agar data tersinkronisasi dengan aman.</p>
+            <p class="tech">
+              <strong>Peran:</strong> Pengembang Aplikasi Mobile<br />
+              <strong>Teknologi:</strong> Flutter (Dart), Firebase Firestore, Shared Preferences
+            </p>
+            <div class="project-links">
+              <span class="note">Demo internal / repository tersedia</span>
+            </div>
           </div>
-        </div>
 
-        <!-- PROJECT 2 -->
-        <div class="card reveal">
-          <h3>Website Pembelajaran Doa Anak Islami</h3>
-          <p>
-            Website edukasi anak berisi doa harian dan kuis interaktif dengan
-            tampilan ramah anak dan interaksi sederhana berbasis rules-based.
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> HTML, CSS, JavaScript
-          </p>
-          <div class="project-links">
-            <a
-              href="https://heryanti-mentari.github.io/Doa-anak/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
+          <!-- PROJECT 2 -->
+          <div class="card reveal">
+            <h3>Sistem E-Voting PEMIRA Berbasis Web</h3>
+            <p>Sistem e-voting mahasiswa dengan dashboard admin dan halaman pemilih. Menggunakan desain responsif agar dapat diakses di berbagai perangkat, dengan fokus pada UI dan alur voting.</p>
+            <p class="tech">
+              <strong>Peran:</strong> Ketua Tim & Pengembang Web<br />
+              <strong>Teknologi:</strong> HTML, CSS, JavaScript, Bootstrap, PHP, MySQL
+            </p>
+            <div class="project-links">
+              <span class="note">Repository tersedia</span>
+            </div>
           </div>
-        </div>
 
-        <!-- PROJECT 3 -->
-        <div class="card reveal">
-          <h3>Personal Landing Page (Portofolio)</h3>
-          <p>
-            Landing page sederhana sebagai portofolio online untuk menampilkan
-            profil singkat dan daftar proyek. Dirancang responsif dan
-            mobile-friendly.
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> HTML, CSS, JavaScript, GitHub Pages
-          </p>
-          <div class="project-links">
-            <a
-              href="https://heryanti-mentari.github.io/Heryanti-Portofolio/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Site
-            </a>
+          <!-- PROJECT 3 -->
+          <div class="card reveal">
+            <h3>Analisis Sentimen Media Sosial</h3>
+            <p>Proyek akademik pengolahan dan analisis data teks media sosial untuk klasifikasi sentimen. Melibatkan pembersihan data, ekstraksi fitur, dan penyusunan laporan terstruktur.</p>
+            <p class="tech">
+              <strong>Peran:</strong> Pengembang & Analis Data<br />
+              <strong>Teknologi:</strong> Python, Natural Language Processing (NLP)
+            </p>
+            <div class="project-links">
+              <a href="https://heryanti-mentari.github.io/Sentimen-Dashboard/" target="_blank" rel="noopener noreferrer"> Live Demo </a>
+            </div>
           </div>
-        </div>
 
-        <!-- PROJECT 4 -->
-        <div class="card reveal">
-          <h3>LifeJurnal – Aplikasi Mobile Catatan & To-Do</h3>
-          <p>
-            Aplikasi mobile sederhana untuk pencatatan jurnal dan manajemen tugas
-            guna melatih pengembangan UI dan navigasi multi-halaman.
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> Flutter, Dart, Firebase Firestore
-          </p>
-          <div class="project-links">
-            <span class="note">Demo internal / repository tersedia</span>
+          <!-- PROJECT 4 -->
+          <div class="card reveal">
+            <h3>Aplikasi Pembelajaran Doa Anak Islami (Web)</h3>
+            <p>Aplikasi web edukasi interaktif untuk anak dengan doa harian, kuis sederhana, dan chatbot berbasis aturan agar belajar lebih menyenangkan dan mudah diakses.</p>
+            <p class="tech">
+              <strong>Peran:</strong> Ketua Tim & Pengembang Web<br />
+              <strong>Teknologi:</strong> HTML, CSS, JavaScript, NLP
+            </p>
+            <div class="project-links">
+              <a href="https://heryanti-mentari.github.io/Doa-anak/" target="_blank" rel="noopener noreferrer"> Live Demo </a>
+            </div>
           </div>
-        </div>
 
-        <!-- PROJECT 5 -->
-        <div class="card reveal">
-          <h3>Website PEMIRA</h3>
-          <p>
-            Website berbasis web dengan dashboard admin untuk pengelolaan data
-            dasar, autentikasi sederhana, dan fitur CRUD.
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> PHP, MySQL, HTML, CSS, JavaScript
-          </p>
-          <div class="project-links">
-            <span class="note">Repository tersedia</span>
+          <!-- PROJECT 5 -->
+          <div class="card reveal">
+            <h3>Smart Home Safety & Security Berbasis IoT</h3>
+            <p>Sistem keamanan rumah berbasis ESP32 dengan sensor PIR, DHT22, dan MQ-2. Menyediakan indikator visual dan notifikasi real-time via Telegram untuk mendeteksi gerakan, suhu, kelembapan, dan gas berbahaya.</p>
+            <p class="tech">
+              <strong>Peran:</strong> Pengembang Sistem IoT<br />
+              <strong>Teknologi:</strong> ESP32, Sensor PIR, DHT22, MQ-2, Telegram API
+            </p>
+            <div class="project-links">
+              <span class="note">Demo internal / repository tersedia</span>
+            </div>
           </div>
-        </div>
 
-        <!-- PROJECT 6 -->
-        <div class="card reveal">
-          <h3>Proyek Web Laravel (Akademik)</h3>
-          <p>
-            Proyek backend akademik menggunakan Laravel untuk implementasi CRUD
-            sederhana dan REST API dasar dengan database MySQL.
-          </p>
-          <p class="tech">
-            <strong>Teknologi:</strong> Laravel, PHP, MySQL, REST API
-          </p>
-          <div class="project-links">
-            <span class="note">Repository tersedia</span>
+          <!-- PROJECT 6 -->
+          <div class="card reveal">
+            <h3>Personal Landing Page (Portofolio)</h3>
+            <p>Website portofolio pribadi menampilkan profil, keahlian, dan daftar proyek. Dirancang sederhana, responsif, dan mobile-friendly.</p>
+            <p class="tech"><strong>Teknologi:</strong> HTML, CSS, JavaScript, GitHub Pages</p>
+            <div class="project-links">
+              <a href="https://heryanti-mentari.github.io/Heryanti-Portofolio/" target="_blank" rel="noopener noreferrer"> Live Site </a>
+            </div>
           </div>
+
+          <!-- PROJECT 7 -->
+          <div class="card reveal">
+            <h3>Proyek Backend Web Laravel (Akademik)</h3>
+            <p>Proyek akademik backend untuk implementasi CRUD dan REST API menggunakan framework Laravel dengan basis data MySQL, fokus pada pengelolaan data dan integrasi API.</p>
+            <p class="tech"><strong>Teknologi:</strong> Laravel, PHP, MySQL, REST API</p>
+            <div class="project-links">
+              <span class="note">Repository tersedia</span>
+            </div>
+          </div>
+
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- SCRIPT -->
     <script src="assets/js/script.js"></script>

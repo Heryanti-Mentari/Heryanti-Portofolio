@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tentang Saya | Portofolio</title>
 
+    <meta name="description" content="Halaman tentang saya - Mahasiswa Sistem Informasi dengan minat pengembangan web dan mobile." />
+
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav>
+    <nav class="navbar">
       <div class="logo">Portofolio</div>
 
-      <ul>
+      <ul class="nav-menu">
         <li><a href="index.html">Beranda</a></li>
         <li><a href="about.html" class="active">Tentang</a></li>
         <li><a href="skills.html">Keahlian</a></li>
@@ -20,34 +22,26 @@
         <li><a href="contact.html">Kontak</a></li>
       </ul>
 
-      <div class="toggle-theme">🌙</div>
+      <button class="toggle-theme" aria-label="Ganti Tema">🌙</button>
     </nav>
 
     <!-- ABOUT SECTION -->
-    <section class="container reveal">
-      <h2>Tentang Saya</h2>
+    <main>
+      <section class="container reveal about">
+        <h2>Tentang Saya</h2>
 
-      <p>
-        Saya merupakan mahasiswa Program Studi Sistem Informasi yang memiliki
-        ketertarikan pada pengembangan aplikasi berbasis web dan mobile. Saya
-        terbiasa mengerjakan proyek akademik dan mandiri untuk melatih kemampuan
-        teknis serta pemahaman alur pengembangan aplikasi.
-      </p>
+        <p>Saya merupakan mahasiswa Sarjana Terapan (D4) Program Studi Sistem Informasi Kota Cerdas di Politeknik Negeri Indramayu dengan minat pada pengembangan aplikasi berbasis web, desain UI/UX, dan analisis data.</p>
 
-      <p>
-        Saya memiliki pengalaman dasar dalam pengembangan frontend menggunakan
-        HTML, CSS, dan JavaScript, serta pengembangan mobile menggunakan Flutter
-        dan Dart. Untuk sisi backend, saya terbiasa menggunakan Laravel, MySQL,
-        serta REST API dasar dalam konteks pembelajaran.
-      </p>
+        <p>
+          Saya memiliki pengalaman mengembangkan aplikasi web dan mobile melalui berbagai proyek akademik, yang mencakup perancangan antarmuka pengguna, pengelolaan basis data, serta implementasi fitur aplikasi sesuai kebutuhan pengguna.
+        </p>
 
-      <p>
-        Selain itu, saya juga memiliki pengalaman akademik dalam pengolahan data
-        teks dan analisis sentimen menggunakan teknik dasar Natural Language
-        Processing (NLP). Saya terbuka untuk belajar, menerima arahan, dan
-        mengembangkan kemampuan selama program magang atau posisi entry level.
-      </p>
-    </section>
+        <p>
+          Selain itu, saya juga memiliki pengalaman dalam pengolahan dan analisis data teks menggunakan Python serta teknik dasar Natural Language Processing (NLP). Saya terbiasa bekerja dalam tim, mudah beradaptasi dengan teknologi baru,
+          dan siap berkontribusi secara aktif dalam program magang maupun posisi entry level di lingkungan profesional.
+        </p>
+      </section>
+    </main>
 
     <!-- SCRIPT -->
     <script src="assets/js/script.js"></script>
